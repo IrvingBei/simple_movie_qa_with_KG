@@ -1,6 +1,6 @@
 ## simple_movie_qa_with_KG
 
-一个简单的基于知识图谱的电影问答系统
+使用python实现一个简单的基于知识图谱的电影问答系统
 
 ### Usage
 First:
