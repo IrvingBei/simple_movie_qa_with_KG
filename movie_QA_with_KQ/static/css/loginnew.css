@@ -1,0 +1,34 @@
+
+a  {
+	text-decoration: none;
+}
+
+ul ol li {
+	list-style: none;
+}
+
+body {
+	/*background-color: #2F4056;*/
+}
+
+
+.bxback {
+    z-index: -99;
+    bottom: 0px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.bxback .item {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-size: 100% 100%;
+}
+

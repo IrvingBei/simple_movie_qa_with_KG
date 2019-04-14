@@ -1,0 +1,65 @@
+$height: 500px;
+$mecolor:#00f;
+$backcolor:#EEEEEE;
+#chat{
+  height:800px;
+  background: $backcolor;
+  overflow-y:auto;
+  z-index: 999;
+  .me{
+    margin:10px;
+    margin-left:30%;
+    margin-right:5%;
+    text-align:right;
+    position:relative;
+    .qipao{
+      position:absolute;
+      width:0;
+      height:0;
+      border-width:4px;
+      border-style:solid;
+      border-color:transparent transparent transparent $mecolor;
+      right:-8px;
+      top:11px;
+    }
+    div.item{
+      display:inline-block;
+      border-radius: 5px;
+      padding:7px;
+      background:$mecolor;
+    }
+  }
+  .robot{
+    margin:10px;
+    margin-right:30%;
+    text-align:left;
+    margin-left:5%;
+    position:relative;
+
+    .qipao{
+      position:absolute;
+      width:0;
+      height:0;
+      border-width:4px;
+      border-style:solid;
+      border-color:transparent white transparent transparent;
+      left:-8px;
+      top:11px;
+
+    }
+    div.item{
+     display:inline-block;
+     border-radius: 5px;
+     padding:7px;
+     background:white;
+     //background: url("/static/img/robot_ico.png") no-repeat;
+   }
+  }
+}
+#test{
+  width:0;
+  height:0;
+  border-width:100px;
+  border-style:solid;
+  border-color:transparent transparent transparent $mecolor;
+}
